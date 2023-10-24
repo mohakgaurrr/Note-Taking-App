@@ -23,6 +23,18 @@ code {
   padding-left: 10px;
 }
 
+.theme{
+  padding: 5px;
+  margin: 10px;
+  background-color: #323437;
+  border-radius : 10px;
+  color : #e1e1e1;
+}
+.theme:hover{
+  background-color: #e1e1e1;
+  color :#323437;
+}
+
 .dark-mode{
   background-color : #323437;
 }

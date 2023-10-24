@@ -4,6 +4,7 @@ import NotesList from "./Components/NotesList.js";
 import Search from "./Components/Search.js"
 import Header from "./Components/Header.js"
 
+
 const App = () => {
   const [notes, setNotes] = useState([]);
 
@@ -30,6 +31,7 @@ const App = () => {
   return ( 
     <div className = {`${darkMode && 'dark-mode'}`} >
         <div className = "container">
+          
           <Header handleToggleDarkMode = {setDarkMode} darkMode={darkMode}/>
           <Search handleSearchNote = {setSearchText}/>
           <NotesList 
